@@ -27,7 +27,7 @@
             "outputPath": "dist/vega6",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "baseHref": "/Vega6/",
+            "baseHref": "/vega6/",
             "polyfills": [
               "zone.js"
             ],
