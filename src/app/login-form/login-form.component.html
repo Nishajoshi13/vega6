@@ -1,0 +1,31 @@
+
+
+<div class="signup-wrapper flex justify-center align-item-center">
+  <div class="signup-container flex align-item-end">
+    <!-- Left image section -->
+    <div class="image-section">
+      <img src="/assets/home/login.png" alt="Inbox Notification" />
+    </div>
+
+    <!-- Right form section -->
+    <div class="form-section">
+      <h2 class="heading">
+        Join Us For The LIVE Reveal Of <br />
+        AISellers On [Date Here] at 10:00 am EST & Win a FREE Copy + $150!
+      </h2>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <i class="icon user"></i>
+          <input formControlName="name" type="text" placeholder="Enter Name" />
+        </div>
+        <div class="input-group">
+          <i class="icon mail"></i>
+          <input formControlName="email" type="email" placeholder="Enter Email" />
+        </div>
+        <button type="submit" class="submit-btn">SIGN UP NOW FOR THE BIG REVEAL!</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+

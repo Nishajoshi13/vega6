@@ -1,0 +1,21 @@
+mat-toolbar {
+    padding: 0 60px;
+    background-image: url("/assets/header/navbar.png");
+}
+
+.logo img {
+    width: 56%;
+    vertical-align: middle;
+}
+
+.header {
+  gap: 20px;
+}
+
+.header span {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin-right: 70px;
+}

@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family: "Poppins";
+    color:#fff
+}
+
+.flex{
+    display: flex;
+    &.space-between{
+        justify-content: space-between;
+    }
+    &.justify-center{
+        justify-content: center;
+    }
+    &.align-item-center{
+        align-items: center;
+    }
+    &.align-item-end{
+    align-items: flex-end;
+}
+}
+.fw-600{
+    font-weight: 600;
+}
