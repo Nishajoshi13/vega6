@@ -15,7 +15,8 @@ export class HomeComponent {
   cards:cards[] = [
     {
       desc:'Alex Soltan Is Making $23,000 Per Month Selling AI-Generated Ebooks…',
-      img: '/assets/home/card1 .png',
+      img: '/assets/home/card1.png',
+      
     },
     {
       desc:'Another Guy Has Made Over $1.63 Million By Selling AI-Generated Ebooks On Amazon…',

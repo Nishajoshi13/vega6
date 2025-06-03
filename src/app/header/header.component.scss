@@ -1,11 +1,15 @@
 mat-toolbar {
-    padding: 0 60px;
-    background-image: url("../../assets/header/navbar.png");
+  padding: 0 60px;
+  background-image: url("../../assets/header/navbar.png");
 }
-
+@media screen and (max-width: 650px) {
+  mat-toolbar {
+    width: 1150px;
+  }
+}
 .logo img {
-    width: 56%;
-    vertical-align: middle;
+  width: 56%;
+  vertical-align: middle;
 }
 
 .header {
